@@ -50,7 +50,7 @@ const server = http.createServer(app);
     .then(() => {
         console.log('✅ Connected to MongoDB');
         server.listen(8080 || process.env.PORT, () => {
-            console.log('🚀 Server running on http://localhost:8080/');
+            console.log('🚀 Server running on http://localhost:8080');
     })
     })
     .catch((error) => {
